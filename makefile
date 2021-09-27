@@ -12,4 +12,4 @@ event.node: clean
 	g++ lib/lib.cpp -shared -fPIC -o $(BUILD_DIR)/event.node -Wall -Wextra $(LIBS) $(INCLUDE)
 
 clean:
-	rm -r $(BUILD_DIR)
+	rm -rf $(BUILD_DIR)
