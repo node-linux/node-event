@@ -1,0 +1,19 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "gypfile": true,
+  "typings": "./index.d.ts",
+  "main": "./index.js",
+  "scripts": {
+  	"postinstall": "make event.node",
+  	"build": "make build"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.0.0"
+  },
+  "dev-dependencies": {
+    "typescript": "latest",
+    "esbuild": "latest"
+  }
+}
